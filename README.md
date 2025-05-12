@@ -1,0 +1,1 @@
+1. [Static vs Dynamic Rendering](static_vs_dynamic_rendering/README.md)
