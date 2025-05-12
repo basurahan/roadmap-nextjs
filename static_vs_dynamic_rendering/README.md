@@ -1,4 +1,5 @@
 # Running the project
+(dont use the dev script as it behaves differently when using HMR we want to emulate how it behaves on production)
 
 1. npm install
 2. npm run build
