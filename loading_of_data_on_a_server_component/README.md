@@ -12,3 +12,5 @@ fetch can also be a factor that the page will be dynamically rendered or statica
 | cache: "no-store"    | automatically the compoentn will be dynamically rendered |
 | cache: not specified | automatically the component will be statically rendered  |
 | cache: "force-cache" | automatically the component will be statically rendered  |
+
+Right now the fetch api is the best way to go in loading data because caching is automatically handled but if we want to use other ways like using third party http clients or just directly querying the database then we can use unstable cache. Personally I would be using only fetch api so I will not discuss it any further
